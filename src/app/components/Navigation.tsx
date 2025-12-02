@@ -43,7 +43,7 @@ export const Navigation: React.FC<NavigationProps> = ({ activeSection }) => {
               whileTap={{ scale: 0.95 }}
               onClick={() => scrollToSection('home')}
             >
-              <h1 className='tracking-wider'>PIYUSH.PORTFOLIO</h1>
+              <h1 className='tracking-wider'>LASIKA.PORTFOLIO</h1>
             </motion.div>
 
             {/* Desktop Navigation */}

@@ -18,7 +18,7 @@ export const ProjectsSection: React.FC = () => {
       longDescription:
         '🏆 Featured in college exhibition; appreciated for UI aesthetics. A comprehensive healthcare platform designed to simplify appointment booking, medicine ordering, and medical report management — making healthcare more accessible and efficient for patients. Conducted 40 user interviews & 250+ surveys to identify major pain points in healthcare journeys. Designed complete UX flow including journeys, sitemaps, IA, and wireframes. Built a clean, modern UI system with consistent visual hierarchy. Improved user navigation by reducing multi-step actions into a 3-step streamlined flow. Created prototypes, usability tested, and iterated to maximize efficiency.',
       image:
-        'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop',
+        'https://www.definitivehc.com/sites/default/files/2024-01/future-trends-in-medical-imaging-header.jpg',
       technologies: [
         'Figma',
         'Miro',
@@ -26,7 +26,8 @@ export const ProjectsSection: React.FC = () => {
         'UX Strategy',
         'Prototyping',
       ],
-      demoUrl: 'https://www.behance.net/lasikag',
+      demoUrl:
+        'https://www.figma.com/design/whF81awkTXh7Kzy9GxP9xa/Untitled?node-id=1-305&t=IZp9kf83D6wu3GOh-1',
       githubUrl: null,
       category: 'Mobile Application, Website',
       badge: '🏆 Featured',
@@ -45,7 +46,8 @@ export const ProjectsSection: React.FC = () => {
         'UX Research',
         'Interaction Design',
       ],
-      demoUrl: 'https://www.behance.net/lasikag',
+      demoUrl:
+        'https://www.figma.com/design/A6emTS9u97QwDkioSRe4Lv/Makemy-song?node-id=28-1657&t=GT5y7eIBOu6rNkvs-1',
       githubUrl: null,
       category: 'Mobile Application / AI Product',
       badge: null,
@@ -58,13 +60,9 @@ export const ProjectsSection: React.FC = () => {
         '🏆 Won in Designation, Cognizance, IIT Roorkee. A recipe discovery and smart food recommendation app that helps users explore dishes, view ingredients, customize servings, and follow step-by-step cooking guides. Conducted research on user cooking habits & food exploration patterns. Designed onboarding, home, search, recipe detail, and cooking guide screens. Built a bright and friendly UI with a playful yet structured design style. Created a modular component library for consistent visual experience. Added accessibility features such as contrast-friendly colors and icon-first navigation.',
       image:
         'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&h=400&fit=crop',
-      technologies: [
-        'Figma',
-        'UX Research',
-        'UI Design',
-        'Wireframing',
-      ],
-      demoUrl: 'https://www.behance.net/lasikag',
+      technologies: ['Figma', 'UX Research', 'UI Design', 'Wireframing'],
+      demoUrl:
+        'https://www.figma.com/design/srATjCJ43DlBicB2shjKGX/recipish?node-id=0-1&t=HGXK98jdxWcCYs2a-1',
       githubUrl: null,
       category: 'Mobile Application',
       badge: '🏆 Winner',
@@ -198,7 +196,7 @@ export const ProjectsSection: React.FC = () => {
                   </div>
 
                   <div className='p-6'>
-                      <div className='flex items-start justify-between mb-4'>
+                    <div className='flex items-start justify-between mb-4'>
                       <div>
                         <h3 className='text-2xl mb-2'>
                           {projects[selectedProject].title}

@@ -1,13 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import {
-  Send,
-  Mail,
-  MapPin,
-  Linkedin,
-  ExternalLink,
-} from 'lucide-react';
+import { Send, Mail, MapPin, Linkedin, ExternalLink } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
@@ -44,16 +38,16 @@ export const ContactSection: React.FC = () => {
 
   const contactInfo = [
     {
+      icon: MapPin,
+      label: 'Phone',
+      value: '7080426611',
+      href: 'tel:7080426611',
+    },
+    {
       icon: Mail,
       label: 'Email',
       value: 'lasikag3109@gmail.com',
       href: 'mailto:lasikag3109@gmail.com',
-    },
-    {
-      icon: MapPin,
-      label: 'Location',
-      value: 'Remote / India',
-      href: null,
     },
   ];
 
