@@ -59,7 +59,7 @@ export const ExperienceSection: React.FC = () => {
     {
       title: 'UX/UI Designer Intern',
       company: 'Fan TV AI',
-      location: 'Remote',
+      location: 'On-Site',
       period: 'July 2025 – Sep 2025',
       type: 'Internship',
       description:
