@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Palette, Search, Layers, Sparkles } from 'lucide-react';
 import { Card } from './ui/card';
+import Image from 'next/image';
 
 export const AboutSection: React.FC = () => {
   const highlights = [
@@ -71,16 +72,30 @@ export const AboutSection: React.FC = () => {
             <h3 className='text-2xl mb-6'>Passionate UI/UX Designer</h3>
             <div className='space-y-4 text-muted-foreground'>
               <p>
-                I&apos;m a dedicated UI/UX designer with a strong passion for creating intuitive, user-centered digital experiences. My design approach blends research, usability, and visual storytelling to solve real problems and help products feel effortless and enjoyable for users.
+                I&apos;m a dedicated UI/UX designer with a strong passion for
+                creating intuitive, user-centered digital experiences. My design
+                approach blends research, usability, and visual storytelling to
+                solve real problems and help products feel effortless and
+                enjoyable for users.
               </p>
               <p>
-                Over the past few years, I&apos;ve worked on projects across healthcare, AI, and lifestyle apps — transforming insights from user research into wireframes, prototypes, and pixel-perfect interfaces. I enjoy collaborating with cross-functional teams to align design with business goals and build solutions that drive measurable impact.
+                Over the past few years, I&apos;ve worked on projects across
+                healthcare, AI, and lifestyle apps — transforming insights from
+                user research into wireframes, prototypes, and pixel-perfect
+                interfaces. I enjoy collaborating with cross-functional teams to
+                align design with business goals and build solutions that drive
+                measurable impact.
               </p>
               <p>
-                I believe great design is not just about how it looks, but how it works — and I focus on accessibility, empathy, and clean interaction patterns that enhance every step of the user journey.
+                I believe great design is not just about how it looks, but how
+                it works — and I focus on accessibility, empathy, and clean
+                interaction patterns that enhance every step of the user
+                journey.
               </p>
               <p>
-                My expertise in user research, prototyping, usability testing, and high-fidelity UI allows me to contribute meaningfully to product teams and deliver seamless digital experiences.
+                My expertise in user research, prototyping, usability testing,
+                and high-fidelity UI allows me to contribute meaningfully to
+                product teams and deliver seamless digital experiences.
               </p>
             </div>
           </motion.div>
@@ -92,9 +107,9 @@ export const AboutSection: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true, margin: '-100px' }}
           >
-            <div className='aspect-square bg-gradient-to-br from-muted/20 to-muted/5 rounded-2xl border border-border/50 flex items-center justify-center'>
+            <div className='aspect-square bg-gradient-to-br from-muted/20 to-muted/5 rounded-2xl border border-border/50 relative overflow-hidden'>
               <motion.div
-                className='text-6xl'
+                className='relative w-full h-full'
                 animate={{
                   rotateY: [0, 360],
                 }}
@@ -104,7 +119,12 @@ export const AboutSection: React.FC = () => {
                   ease: 'linear',
                 }}
               >
-                🎨
+                <Image
+                  src='/f0337069-ee9e-4b15-8c6c-4dbd2c6c7b77.JPG'
+                  alt='About'
+                  fill
+                  className='object-cover rounded-2xl'
+                />
               </motion.div>
             </div>
             <motion.div
