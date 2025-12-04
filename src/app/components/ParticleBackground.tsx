@@ -25,7 +25,7 @@ export const ParticleBackground: React.FC = () => {
     }> = [];
 
     // Create particles
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 50; i++) {
       particles.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
@@ -53,9 +53,7 @@ export const ParticleBackground: React.FC = () => {
         // Draw particle
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(${Math.floor(Math.random() * 255)},${Math.floor(
-          Math.random() * 255
-        )},${Math.floor(Math.random() * 255)}, 1)`;
+        ctx.fillStyle = `rgba(255,255,255, 1)`;
         ctx.fill();
 
         // Draw connections
@@ -68,11 +66,9 @@ export const ParticleBackground: React.FC = () => {
             ctx.beginPath();
             ctx.moveTo(particle.x, particle.y);
             ctx.lineTo(otherParticle.x, otherParticle.y);
-            ctx.strokeStyle = `rgba(${Math.floor(
-              Math.random() * 255
-            )},${Math.floor(Math.random() * 255)},${Math.floor(
-              Math.random() * 255
-            )}, ${0.5 * (1 - distance / 100)})`;
+            ctx.strokeStyle = `rgba(255,255,255, ${
+              0.5 * (1 - distance / 100)
+            })`;
             ctx.lineWidth = 0.5;
             ctx.stroke();
           }

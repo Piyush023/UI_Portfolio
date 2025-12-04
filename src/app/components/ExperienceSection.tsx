@@ -65,7 +65,7 @@ export const ExperienceSection: React.FC = () => {
       description:
         'Designed end-to-end UI/UX for digital products under the AI-based entertainment & astrology domain.',
       achievements: [
-        'Designed full UI/UX of the Astro App — including user flows, wireframes, and final UI screens',
+        'Designed full UI/UX of the Astro App, including user flows, wireframes, and final UI screens',
         'Contributed to UX & UI for MakeMySong platform, creating smooth and engaging experiences',
         'Collaborated with product, development, and marketing teams to refine features',
         'Designed posters and static creatives to support campaign launches',

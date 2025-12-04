@@ -57,11 +57,9 @@ export default function App() {
   return (
     <div
       className='min-h-screen text-foreground overflow-x-hidden'
-      style={
-        {
-          // background: `linear-gradient(to bottom, ${color}, ${color})`,
-        }
-      }
+      style={{
+        background: `#000000`,
+      }}
     >
       <AnimatePresence>{isLoading && <LoadingScreen />}</AnimatePresence>
 

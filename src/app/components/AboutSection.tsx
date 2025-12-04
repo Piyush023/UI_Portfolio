@@ -10,7 +10,7 @@ export const AboutSection: React.FC = () => {
       icon: Palette,
       title: 'User-Centered Design',
       description:
-        'Designing solutions rooted in empathy, research, and usability — ensuring every interaction feels intuitive and meaningful.',
+        'Designing solutions rooted in empathy, research, and usability, ensuring every interaction feels intuitive and meaningful.',
     },
     {
       icon: Search,
@@ -80,7 +80,7 @@ export const AboutSection: React.FC = () => {
               </p>
               <p>
                 Over the past few years, I&apos;ve worked on projects across
-                healthcare, AI, and lifestyle apps — transforming insights from
+                healthcare, AI, and lifestyle apps, transforming insights from
                 user research into wireframes, prototypes, and pixel-perfect
                 interfaces. I enjoy collaborating with cross-functional teams to
                 align design with business goals and build solutions that drive
@@ -88,7 +88,7 @@ export const AboutSection: React.FC = () => {
               </p>
               <p>
                 I believe great design is not just about how it looks, but how
-                it works — and I focus on accessibility, empathy, and clean
+                it works, and I focus on accessibility, empathy, and clean
                 interaction patterns that enhance every step of the user
                 journey.
               </p>

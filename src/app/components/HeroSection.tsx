@@ -29,7 +29,7 @@ export const HeroSection: React.FC = () => {
 
   const name = 'Hey, There!';
   const subtitle =
-    "I'm Lasika, UI/UX Designer — crafting intuitive & human-centered digital experiences.";
+    "I'm Lasika, UI/UX Designer, crafting intuitive & human-centered digital experiences.";
 
   return (
     <div className='min-h-screen flex items-center justify-center relative px-6'>
@@ -77,7 +77,9 @@ export const HeroSection: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.2 }}
         >
-          Turning real problems into thoughtful design solutions through user research, wireframes, and visually polished UI — powered by projects across healthcare, AI & consumer apps.
+          Turning real problems into thoughtful design solutions through user
+          research, wireframes, and visually polished UI, powered by projects
+          across healthcare, AI & consumer apps.
         </motion.p>
 
         <motion.div

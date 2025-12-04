@@ -14,9 +14,9 @@ export const ProjectsSection: React.FC = () => {
     {
       title: 'DRxprss — Healthcare Management Platform',
       description:
-        'A comprehensive healthcare platform designed to simplify appointment booking, medicine ordering, and medical report management — making healthcare more accessible and efficient for patients.',
+        'A comprehensive healthcare platform designed to simplify appointment booking, medicine ordering, and medical report management making healthcare more accessible and efficient for patients.',
       longDescription:
-        '🏆 Featured in college exhibition; appreciated for UI aesthetics. A comprehensive healthcare platform designed to simplify appointment booking, medicine ordering, and medical report management — making healthcare more accessible and efficient for patients. Conducted 40 user interviews & 250+ surveys to identify major pain points in healthcare journeys. Designed complete UX flow including journeys, sitemaps, IA, and wireframes. Built a clean, modern UI system with consistent visual hierarchy. Improved user navigation by reducing multi-step actions into a 3-step streamlined flow. Created prototypes, usability tested, and iterated to maximize efficiency.',
+        '🏆 Featured in college exhibition; appreciated for UI aesthetics. A comprehensive healthcare platform designed to simplify appointment booking, medicine ordering, and medical report management making healthcare more accessible and efficient for patients. Conducted 40 user interviews & 250+ surveys to identify major pain points in healthcare journeys. Designed complete UX flow including journeys, sitemaps, IA, and wireframes. Built a clean, modern UI system with consistent visual hierarchy. Improved user navigation by reducing multi-step actions into a 3-step streamlined flow. Created prototypes, usability tested, and iterated to maximize efficiency.',
       image:
         'https://www.definitivehc.com/sites/default/files/2024-01/future-trends-in-medical-imaging-header.jpg',
       technologies: [
