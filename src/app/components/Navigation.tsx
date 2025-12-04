@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 interface NavigationProps {
   activeSection: string;
@@ -43,7 +44,10 @@ export const Navigation: React.FC<NavigationProps> = ({ activeSection }) => {
               whileTap={{ scale: 0.95 }}
               onClick={() => scrollToSection('home')}
             >
-              <h1 className='tracking-wider'>LASIKA.PORTFOLIO</h1>
+              <div className='flex items-center gap-2'>
+                <Image src='/logo.png' alt='Logo' width={20} height={20} />
+                <h1 className='tracking-wider'>LASIKA.PORTFOLIO</h1>
+              </div>
             </motion.div>
 
             {/* Desktop Navigation */}
