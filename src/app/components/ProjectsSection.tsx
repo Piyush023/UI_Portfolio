@@ -27,7 +27,7 @@ export const ProjectsSection: React.FC = () => {
         'Prototyping',
       ],
       demoUrl:
-        'https://www.figma.com/design/whF81awkTXh7Kzy9GxP9xa/Untitled?node-id=1-305&t=IZp9kf83D6wu3GOh-1',
+        'https://www.figma.com/proto/whF81awkTXh7Kzy9GxP9xa/Drxprss?page-id=0%3A1&node-id=1-305&p=f&viewport=336%2C255%2C0.02&t=Al2IjTfNTXzcSErK-1&scaling=scale-down-width&content-scaling=fixed',
       githubUrl: null,
       category: 'Mobile Application, Website',
       badge: '🏆 Featured',
@@ -47,7 +47,7 @@ export const ProjectsSection: React.FC = () => {
         'Interaction Design',
       ],
       demoUrl:
-        'https://www.figma.com/design/A6emTS9u97QwDkioSRe4Lv/Makemy-song?node-id=28-1657&t=GT5y7eIBOu6rNkvs-1',
+        'https://www.figma.com/proto/A6emTS9u97QwDkioSRe4Lv/Makemy-song?page-id=0%3A1&node-id=2-490&viewport=857%2C100%2C0.02&t=05g2O670ni7aLlHB-1&scaling=scale-down-width&content-scaling=fixed',
       githubUrl: null,
       category: 'Mobile Application / AI Product',
       badge: null,
@@ -62,7 +62,7 @@ export const ProjectsSection: React.FC = () => {
         'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&h=400&fit=crop',
       technologies: ['Figma', 'UX Research', 'UI Design', 'Wireframing'],
       demoUrl:
-        'https://www.figma.com/design/srATjCJ43DlBicB2shjKGX/recipish?node-id=0-1&t=HGXK98jdxWcCYs2a-1',
+        'https://www.figma.com/proto/srATjCJ43DlBicB2shjKGX/recipish?page-id=0%3A1&node-id=1-41&p=f&viewport=390%2C40%2C0.02&t=K3zTem1d8ooecFZO-1&scaling=scale-down-width&content-scaling=fixed',
       githubUrl: null,
       category: 'Mobile Application',
       badge: '🏆 Winner',
