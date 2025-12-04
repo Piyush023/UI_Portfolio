@@ -55,12 +55,7 @@ export default function App() {
   }, []);
 
   return (
-    <div
-      className='min-h-screen text-foreground overflow-x-hidden'
-      style={{
-        background: `#000000`,
-      }}
-    >
+    <div className='min-h-screen text-foreground overflow-x-hidden bg-background'>
       <AnimatePresence>{isLoading && <LoadingScreen />}</AnimatePresence>
 
       {!isLoading && (

@@ -56,19 +56,19 @@ export const ContactSection: React.FC = () => {
       icon: ExternalLink,
       label: 'Behance',
       href: 'https://www.behance.net/lasikag',
-      color: 'hover:text-blue-400',
+      color: 'hover:text-foreground',
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       href: 'https://www.linkedin.com/in/lasika-gupta-9bbb49192/',
-      color: 'hover:text-blue-400',
+      color: 'hover:text-foreground',
     },
     {
       icon: Mail,
       label: 'Email',
       href: 'mailto:lasikag3109@gmail.com',
-      color: 'hover:text-blue-400',
+      color: 'hover:text-foreground',
     },
   ];
 

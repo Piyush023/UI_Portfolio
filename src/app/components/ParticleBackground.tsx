@@ -53,7 +53,8 @@ export const ParticleBackground: React.FC = () => {
         // Draw particle
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255,255,255, 1)`;
+        // Use theme-aware color (light color for dark background)
+        ctx.fillStyle = `rgba(237, 237, 237, ${particle.opacity})`;
         ctx.fill();
 
         // Draw connections
@@ -66,8 +67,9 @@ export const ParticleBackground: React.FC = () => {
             ctx.beginPath();
             ctx.moveTo(particle.x, particle.y);
             ctx.lineTo(otherParticle.x, otherParticle.y);
-            ctx.strokeStyle = `rgba(255,255,255, ${
-              0.5 * (1 - distance / 100)
+            // Use theme-aware color (light color for dark background)
+            ctx.strokeStyle = `rgba(237, 237, 237, ${
+              0.3 * (1 - distance / 100)
             })`;
             ctx.lineWidth = 0.5;
             ctx.stroke();

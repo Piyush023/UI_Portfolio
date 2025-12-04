@@ -104,7 +104,11 @@ export const Navigation: React.FC<NavigationProps> = ({ activeSection }) => {
           {navItems.map((item, index) => (
             <motion.button
               key={item.id}
-              className='text-2xl hover:text-muted-foreground transition-colors'
+              className={`text-2xl transition-colors ${
+                activeSection === item.id
+                  ? 'text-foreground'
+                  : 'text-muted-foreground hover:text-foreground'
+              }`}
               onClick={() => scrollToSection(item.id)}
               initial={{ opacity: 0, y: 20 }}
               animate={{
